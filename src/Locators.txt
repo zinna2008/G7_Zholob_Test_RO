@@ -1,0 +1,13 @@
+Загальне посилання
+https://online.raiffeisen.ua/ibank/home?1
+
+1. Сторінка входу в систему
+
+поле для введення login  //div[@id='id9']
+поле для введення password   //div[@id='idc']
+кнопка ВХІД   //div[@id='id7']
+Повідомлення 'Введено невірний логін або пароль"  //span[@class='feedbackPanelERROR']
+
+2. Сторінка профілю
+АВАТАР на сторінці профылю після входу в систему  //span[@class='avatar']
+кнопка ВИЙТИ  //a[@class='actionLogout']
