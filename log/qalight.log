@@ -1,0 +1,209 @@
+2023-28-08 21:56:59   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:04:07   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:05:12   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:06:21   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:07:40   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:20:36   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:21:29   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:35:40   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:40:56   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:44:23   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:46:16   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:55:30   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 22:59:06   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-28-08 23:02:42   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-29-08 08:16:29   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-29-08 08:23:04   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-29-08 08:25:26   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-29-08 08:27:35   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-29-08 18:52:26   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-29-08 22:00:41   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-29-08 22:00:51   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-29-08 22:00:52   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-29-08 22:00:52   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-29-08 22:02:22  ERROR [pages.LoginPage] : Can not work with elementorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: .//button[@id='id56']' (tried for 10 second(s) with 500 milliseconds interval)
+2023-29-08 22:02:23   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 16:10:31   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 16:10:38   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 16:10:39   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 16:10:40   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-30-08 16:10:40   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 16:10:41   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 16:36:42   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 16:36:54   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 16:36:55   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 16:36:55   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 16:36:56   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 16:36:56   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 16:36:57   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 16:39:00   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 16:39:14   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 16:39:15   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 16:39:15   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 16:39:15   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 16:39:15   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 16:39:16   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 16:40:38   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 16:40:39   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 16:40:40   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 16:40:40   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 16:41:24   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 16:41:26   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 16:41:27   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 16:41:27   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 16:41:27   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 16:54:32   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 16:54:34   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 16:54:35   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 16:54:35   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 16:54:35   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 16:54:35  ERROR [pages.LoginPage] : Can not work with elementorg.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .class='feedbackPanelERROR' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '.class='feedbackPanelERROR'' is not a valid XPath expression.
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a58bc1d20463e75d7449c3a183c8c0ba, findElement {using=xpath, value=.class='feedbackPanelERROR'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\iuad0bg8\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63370/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a58bc1d20463e75d7449c3a183c8c0ba
+2023-30-08 16:54:37   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 16:59:36   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 16:59:38   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 16:59:39   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 16:59:39   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 16:59:39   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 16:59:40  ERROR [pages.LoginPage] : Can not work with elementorg.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .//class='feedbackPanelERROR' because of the following error:
+TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd3f02c8ef11c10f3df77e27609971a6, findElement {using=xpath, value=.//class='feedbackPanelERROR'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\iuad0bg8\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63662}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63662/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd3f02c8ef11c10f3df77e27609971a6
+2023-30-08 16:59:41   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:03:09   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:03:11   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:03:12   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:03:12   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:03:12   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:03:13   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:03:49   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:03:50   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:03:50   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:03:51   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:03:51   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:03:52   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:21:41   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:21:42   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:21:43   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:21:43   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:21:43   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:21:44  ERROR [pages.LoginPage] : Can not work with elementorg.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .//span[@class='feedbackPanelERROR' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/span[@class='feedbackPanelERROR'' is not a valid XPath expression.
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0021ed6d544afaffb1ab676f553ec057, findElement {using=xpath, value=.//span[@class='feedbackPanelERROR'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\iuad0bg8\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51983/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0021ed6d544afaffb1ab676f553ec057
+2023-30-08 17:21:45   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:22:53   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:22:54   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:22:55   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:22:55   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:22:55   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:22:55   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 17:22:56   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:38:03   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:38:04   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:38:05   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:38:06   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:38:06   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:41:33   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 17:41:43   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:41:44   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:41:45   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:41:45   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:41:46   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:41:46   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 17:41:47   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:42:47   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:42:58   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:42:59   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:42:59   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:42:59   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:42:59  ERROR [pages.LoginPage] : Can not work with elementorg.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .//li[@class='feedbackPanelERROR' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/li[@class='feedbackPanelERROR'' is not a valid XPath expression.
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6edaa4e502e009f167e49af5257491a, findElement {using=xpath, value=.//li[@class='feedbackPanelERROR'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\iuad0bg8\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49320}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49320/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6edaa4e502e009f167e49af5257491a
+2023-30-08 17:43:00   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:43:57   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:43:58   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:43:59   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:43:59   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:44:00   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:44:00   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 17:44:01   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:49:46   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:49:47   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:49:48   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:49:48   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:49:49   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:49:49   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:49:50   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:50:25   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:50:26   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:50:27   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:50:27   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:50:28   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:50:28   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:50:28   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 17:50:29   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:51:03   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:51:05   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:51:06   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:51:06   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:51:06   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:51:06   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:51:07   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:51:50   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:51:51   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:51:52   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:51:52   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:51:53   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:51:53   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:51:53   INFO [pages.LoginPage] : Element is not displaed
+2023-30-08 17:51:54   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:53:49   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:53:51   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:53:52   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:53:52   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:53:52   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:53:52   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:53:52   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:53:53   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:56:11   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:56:12   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:56:13   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:56:13   INFO [pages.LoginPage] : Aval#20202020 was inputted into input
+2023-30-08 17:56:13   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:56:13   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:56:13   INFO [pages.LoginPage] : Element is displaed
+2023-30-08 17:56:14   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
+2023-30-08 17:56:18   INFO [LoginTest.LoginTestWithPageObgect] : Browser was opened
+2023-30-08 17:56:19   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-30-08 17:56:20   INFO [pages.LoginPage] : zinna2008 was inputted into input
+2023-30-08 17:56:20   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-30-08 17:56:20   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-30-08 17:56:21   INFO [LoginTest.LoginTestWithPageObgect] : Browser was closed
