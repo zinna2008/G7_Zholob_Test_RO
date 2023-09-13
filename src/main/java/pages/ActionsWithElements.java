@@ -17,14 +17,14 @@ public class ActionsWithElements {
 
     Logger logger = Logger.getLogger(getClass()); //
 
-    protected WebDriver webDriver;
+    protected WebDriver webDriver; //
     protected WebDriverWait webDriverWait10, webDriverWait15; //  чекаємо поки елемент буде клікабельний
 
     public ActionsWithElements(WebDriver webDriver) { // конструктор
         this.webDriver = webDriver;
-        PageFactory.initElements(webDriver, this); //initialization of elements
+        PageFactory.initElements(webDriver, this); // ініціалізація елементів @FindBy
 // element in @FindBy
-        webDriverWait10 = new WebDriverWait(webDriver, Duration.ofSeconds(10)); // чекаємо макс 10с поки елемент буде клікабельний
+        webDriverWait10 = new WebDriverWait(webDriver, Duration.ofSeconds(60)); // чекаємо макс 60с поки елемент буде клікабельний
 //        webDriverWait15 = new WebDriverWait(webDriver, Duration.ofSeconds(ConfigProvider.configProperties.TIME_FOR_EXPLICIT_WAIT_LOW())); // чекаємо макс 15с поки елемент буде клікабельний
     }
 
@@ -37,7 +37,7 @@ public class ActionsWithElements {
     public void clickOnElement(WebElement element) { //method for clicking on element
         try {
             String elementName = getElementName(element);
-            webDriverWait10.until(ExpectedConditions.elementToBeClickable(element)); // чекаємо поки елемент буде клікабельний
+      //      webDriverWait10.until(ExpectedConditions.elementToBeClickable(element)); // чекаємо поки елемент буде клікабельний
             element.click();
             logger.info(getElementName(element) + "Element was clicked");
         } catch (Exception e) {
@@ -66,6 +66,11 @@ public class ActionsWithElements {
         }
     }
 
+    //ЕКСПЕРЕМЕНТ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    //метод для введення числа в інпут
+
+
+
     public boolean isElementDisplayed(WebElement element) {  // перевырка чи елемент присутный на дысплеї
         try {
 
@@ -84,8 +89,26 @@ public class ActionsWithElements {
     }
 
 //////????????????????????????? ЕКСПЕРЕМЕНТ
-//Метод чекає поки елемент з'явиться на сторінці
-public void waitElementIsVisible(WebElement element) {
+//метод для введення числа в інпут
+    public void enterDoubleIntoInput(WebElement input, Double number) { // метод для вводу числа в інпут
+        try {
+            input.clear();
+            input.sendKeys(String.valueOf(number));
+            logger.info(number + " was inputted into input" + getElementName(input)); // виводимо в консоль інформацію про те що ввели в інпут
+        } catch (Exception e) {
+            printErrorAndStopTest(e);
+        }
+    }
+
+
+
+
+
+
+
+
+
+    public void waitElementIsVisible(WebElement element) { // метод для очікування поки елемент буде видимий
         try {
             webDriverWait10.until(ExpectedConditions.visibilityOf(element));
         } catch (Exception e) {
@@ -178,7 +201,7 @@ public void waitElementIsVisible(WebElement element) {
             printErrorAndStopTest(e);
         }
     }
-    private String getElementName(WebElement element) {
+    private String getElementName(WebElement element) { // метод для отримання назви елемента
         try {
             return element.getAccessibleName();
         } catch (Exception e) {

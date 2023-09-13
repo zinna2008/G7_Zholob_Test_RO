@@ -23,17 +23,17 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         webDriver = new ChromeDriver(); // ініціалізуємо драйвер
         webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(ofSeconds(60)); // чекаємо макс 10с поки елемент буде клікабельний
+        webDriver.manage().timeouts().implicitlyWait(ofSeconds(60)); // чекаємо макс 60с поки елемент буде клікабельний
         // намагається клікнути на елемент кожні 500мс, якщо вийде відразуйди далі
         logger.info("Browser was opened");
         pageProvider = new PageProvider(webDriver); // ініціалізуємо сторінку
 
     }
 
-    @After // анотація для того щоб метод tearDown() запускався після кожного тесту
-    public void tearDown() {
-        webDriver.quit();
-        logger.info("Browser was closed");
-    }
+//    @After // анотація для того щоб метод tearDown() запускався після кожного тесту
+//    public void tearDown() {
+//        webDriver.quit();
+//        logger.info("Browser was closed");
+//    }
 
 }

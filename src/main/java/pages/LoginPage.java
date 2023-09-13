@@ -20,7 +20,7 @@ public class LoginPage extends ParentPage {
 
     public LoginPage(WebDriver webDriver) {
         super(webDriver);
-    }
+    } // конструктор
 
     public void openLoginPage() {
         openPage(BASE_URL);
@@ -37,17 +37,15 @@ public class LoginPage extends ParentPage {
 
     public void clickOnButtonSignIn() { // метод для кліку на кнопку ВХІД
         clickOnElement(buttonSignIn);
-    }
-    public void waitInvalidLoginOrPasswordIsVisible() { // метод для очікування відображення повідомлення 'Введено невірний логін або пароль"
-        waitElementIsVisible(invalidLoginOrPassword);
-    }
+    } // метод для кліку на кнопку ВХІД
 
+// метод для перевірки чи відображається повідомлення 'Введено невірний логін або пароль"
     public void isInvalidLoginOrPasswordDisplayed() { // метод для перевірки чи відображається повідомлення 'Введено невірний логін або пароль"
         checkElementDisplayed(invalidLoginOrPassword);
-    }
+    } //
 
         public void isButtonSignInDisplayed() {
-            checkElementDisplayed(buttonSignIn);// метод для перевірки чи відображається кнопка ВХІД
+            checkElementDisplayed(buttonSignIn);// метод для перевірки чи відображення кнопка ВХІД
 
 
     }
