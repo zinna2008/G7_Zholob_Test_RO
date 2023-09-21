@@ -46,7 +46,7 @@ public class EditTemplatePage extends ParentPageWithDashboard {
 //    "Шаболон успышно збережено" налогычно
 //    "Закрити" аналогычно
 
-// методи
+
 
     // метод для вибору значення в дробдауні рахунку по дебету
     public EditTemplatePage selectTextInDropdownEditAccounDebet(String text) {

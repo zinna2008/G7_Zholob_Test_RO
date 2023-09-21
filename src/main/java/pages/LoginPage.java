@@ -43,19 +43,18 @@ public class LoginPage extends ParentPage {
         return new HomePage(webDriver);
     }
 
-// метод для перевірки чи відображається повідомлення 'Введено невірний логін або пароль"
-    public LoginPage isInvalidLoginOrPasswordDisplayed() {
-         checkElementDisplayed(invalidLoginOrPassword);
+    public LoginPage isInvalidLoginOrPasswordDisplayed() { // метод для перевірки чи відображається повідомлення 'Введено невірний логін або пароль"
+        checkElementDisplayed(invalidLoginOrPassword);
         return this;
     }
 
-        public LoginPage isButtonSignInDisplayed() {
-            checkElementDisplayed(buttonSignIn); // метод для перевірки  відображення кнопки ВХІД
-          return this;
+    public LoginPage isButtonSignInDisplayed() {
+        checkElementDisplayed(buttonSignIn); // метод для перевірки  відображення кнопки ВХІД
+        return this;
     }
 
-//метод логіна з валідними логіном і паролем
-    public void loginWithValidUserEndPassvord(){
+    //метод логіна з валідними логіном і паролем
+    public void loginWithValidUserEndPassvord() {
         openLoginPage();
         enterTextIntoInputUserName(TestData.LOGIN_DEFAULT);
         enterTextIntoInputPassword(TestData.PASSWORD_DEFAULT);

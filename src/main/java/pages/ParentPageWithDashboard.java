@@ -15,8 +15,6 @@ public class ParentPageWithDashboard extends ParentPage {
         return new Dashboard(webDriver);
     }
 
-
-
     };
 
 

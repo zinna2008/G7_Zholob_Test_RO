@@ -1,6 +1,7 @@
 package pages;
 
 //import libs.ConfigProvider;
+
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -18,20 +19,20 @@ public class ActionsWithElements {
     Logger logger = Logger.getLogger(getClass()); //
 
     protected WebDriver webDriver; //
-    protected WebDriverWait  webDriverWait10, webDriverWait15, webDriverWait30; //  чекаємо поки елемент буде клікабельний
+    protected WebDriverWait webDriverWait10, webDriverWait15, webDriverWait30; //  чекаємо поки елемент буде клікабельний
 
     public ActionsWithElements(WebDriver webDriver) { // конструктор
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this); // ініціалізація елементів @FindBy
 // element in @FindBy
         webDriverWait15 = new WebDriverWait(webDriver, Duration.ofSeconds(15));
-        webDriverWait10= new WebDriverWait(webDriver, Duration.ofSeconds(10));
-        webDriverWait30= new WebDriverWait(webDriver, Duration.ofSeconds(30));
+        webDriverWait10 = new WebDriverWait(webDriver, Duration.ofSeconds(10));
+        webDriverWait30 = new WebDriverWait(webDriver, Duration.ofSeconds(30));
 
 
         // чекаємо макс 60с поки елемент буде клікабельний
 //        webDriverWait15 = new WebDriverWait(webDriver, Duration.ofSeconds(ConfigProvider.configProperties.TIME_FOR_EXPLICIT_WAIT_LOW())); // чекаємо макс 15с поки елемент буде клікабельний
-    //    wait.until(ExpectedConditions.invisibilityOf(spinner)); // чекаємо поки елемент буде невидимий
+        //    wait.until(ExpectedConditions.invisibilityOf(spinner)); // чекаємо поки елемент буде невидимий
     }
 
 
@@ -60,7 +61,7 @@ public class ActionsWithElements {
         }
     }
 
-    public void enterTextIntoInput(WebElement  input , String text) { // метод для вводу тексту в інпут
+    public void enterTextIntoInput(WebElement input, String text) { // метод для вводу тексту в інпут
         try {
             input.clear();
             input.sendKeys(text);
@@ -71,8 +72,6 @@ public class ActionsWithElements {
             printErrorAndStopTest(e);
         }
     }
-
-
 
 
     public boolean isElementDisplayed(WebElement element) {  // перевырка чи елемент присутный на дысплеї
@@ -92,19 +91,6 @@ public class ActionsWithElements {
         }
     }
 
-//////????????????????????????? ЕКСПЕРЕМЕНТ
-//метод для введення числа в інпут
-    public void enterDoubleIntoInput(WebElement input, Double number) { // метод для вводу числа в інпут
-        try {
-            input.clear();
-            input.sendKeys(String.valueOf(number));
-            logger.info(number + " was inputted into input" + getElementName(input)); // виводимо в консоль інформацію про те що ввели в інпут
-        } catch (Exception e) {
-            printErrorAndStopTest(e);
-        }
-    }
-
-
 
     public void waitElementIsVisible(WebElement element) { // метод для очікування поки елемент буде видимий
         try {
@@ -114,7 +100,6 @@ public class ActionsWithElements {
 
         }
     }
-
 
 
     public void checkElementDisplayed(WebElement element) { // перевірка чи елемент присутній на дисплеї
@@ -154,17 +139,18 @@ public class ActionsWithElements {
             printErrorAndStopTest(e);
         }
     }
-// особливий дропдаун рахунку по кредиту для пейджі редагування шаблону
+
+    // особливий дропдаун рахунку по кредиту для пейджі редагування шаблону
 //*[@class='ui-menu ui-widget ui-widget-content ui-autocomplete ui-front']//*//*//*[contains(text(),'•••• 1766')]
-public void selectTextInDropDownByUI_X(WebElement dropDown, String text) {  // ще метод для вибору вказаного значення з дропдауну
-    try {
-        clickOnElement(dropDown);
-        clickOnElement(dropDown.findElement(By.xpath("//*[@class='ui-menu ui-widget ui-widget-content ui-autocomplete ui-front']//*//*//*[contains(text(),'" + text + "')]")));
-        logger.info(text + " was selected in DropDown");
-    } catch (Exception e) { // якщо вибраного значення немає в дропдауні
-        printErrorAndStopTest(e);
+    public void selectTextInDropDownByUI_X(WebElement dropDown, String text) {  // ще метод для вибору вказаного значення з дропдауну
+        try {
+            clickOnElement(dropDown);
+            clickOnElement(dropDown.findElement(By.xpath("//*[@class='ui-menu ui-widget ui-widget-content ui-autocomplete ui-front']//*//*//*[contains(text(),'" + text + "')]")));
+            logger.info(text + " was selected in DropDown");
+        } catch (Exception e) { // якщо вибраного значення немає в дропдауні
+            printErrorAndStopTest(e);
+        }
     }
-}
 
     public void toMarkCheckBox(WebElement element) { // метод для встановлення чекбокса
         try {
@@ -192,9 +178,6 @@ public void selectTextInDropDownByUI_X(WebElement dropDown, String text) {  // �
         }
     }
 
-
-    //
-
     public void toMarkAndToUnMarkCheckBoxByUI(WebElement element, String text) { // метод для встановлення або зняття чекбокса
         try {
             if (!element.isSelected() && text.equals("check")) { // якщо чекбокс не вибраний
@@ -211,6 +194,7 @@ public void selectTextInDropDownByUI_X(WebElement dropDown, String text) {  // �
             printErrorAndStopTest(e);
         }
     }
+
     private String getElementName(WebElement element) { // метод для отримання назви елемента
         try {
             return element.getAccessibleName();
@@ -218,6 +202,4 @@ public void selectTextInDropDownByUI_X(WebElement dropDown, String text) {  // �
             return "";
         }
     }
-
-
 }

@@ -30,7 +30,7 @@ public class ТemplatessPage extends ParentPageWithDashboard {
     private WebElement SearchTemplate;
 
 
-    //Пыдвердження видалення шаблону кнопка ОК ?????????  перевір на тесті
+    //Пыдвердження видалення шаблону кнопка ОК
     @FindBy(xpath = ".//button[contains(text(),'OK')]")// кнопка "ОК"
     private WebElement buttonOK;
 
@@ -39,9 +39,7 @@ public class ТemplatessPage extends ParentPageWithDashboard {
     public ТemplatessPage checkIsDropdownCreateTemplateVisible() {
         checkElementDisplayed(DropdownCreateTemplate);
         return this;
-    } // метод для перевірки чи відображається дропдаун "Створити шаблон" який повертає ту саму сторінку
-
-
+    }
 
     public ТemplatessPage checkIsSearchTemplateVisible() { // метод для перевірки чи відображається поле "Знайти"
         checkElementDisplayed(SearchTemplate);
@@ -82,9 +80,7 @@ public ТemplatessPage checkIsTemplateDropdownVisible(String nameTemplate) {
     }
 
 
-
-
-//ДРОПДАУН ШАБЛОНА !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//ДРОПДАУН ШАБЛОНА
     //метод вибору значення "Видалити" або "Редагувати" на дропдаун TemplateDropdown з параметризованим локатором
     public ТemplatessPage selectTextInTemplateDropdown(String nameTemplate, String text) {
         clickOnElement(webDriver.findElement(By.xpath(
@@ -94,10 +90,6 @@ public ТemplatessPage checkIsTemplateDropdownVisible(String nameTemplate) {
         logger.info(text + " was selected in DropDown");
         return this;
     }
-
-
-
-
 
 }
 

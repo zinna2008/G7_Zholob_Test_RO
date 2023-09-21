@@ -32,16 +32,12 @@ public class Dashboard extends ActionsWithElements {
     private WebElement mySpinner;
 
 
-
-
-
-
     public Dashboard(WebDriver webDriver) { // конструктор
         super(webDriver);
     }
 
 
-// метод для роботи зі спінером !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    // метод для роботи зі спінером !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     public boolean waitForSpinnerToDisappear() {
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(2)); // Ожидание на появление элемента в течение 2 секунд
         try {
@@ -63,7 +59,6 @@ public class Dashboard extends ActionsWithElements {
 //            System.out.println("Элемент spinner не исчез в течение 40 секунд. Ошибка!");
             return false; // Возвращаем false, чтобы указать, что произошла ошибка
         }
-
         // Если элемент исчез в течение 70 секунд, возвращаем true
         return true;
     }
@@ -78,7 +73,7 @@ public class Dashboard extends ActionsWithElements {
 //            // Обработка ошибки, если spinner не исчез
 //            System.out.println("Произошла ошибка. Не удалось дождаться исчезновения spinner.");
 //        }
-/// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
     // попитка номер 2 роботи з спынером
     public void waitForSpinnerToDisappear(WebDriver webDriver) {
@@ -93,18 +88,15 @@ public class Dashboard extends ActionsWithElements {
     }
 
 
-
     public Dashboard checkIsDashboardVisible() {
         checkElementDisplayed(menuDashboard); // метод для перевірки чи відображається меню Головна
-    return this;
+        return this;
     }
 
     public Dashboard checkIsTemplatesVisible() {
         checkElementDisplayed(menuTemplates); // метод для перевірки чи відображається меню Шаблони
-   return this;
+        return this;
     }
-
-// метод відриває сторінку TemplatessPage
 
     public ТemplatessPage clickOnMenuTemplates() { // метод для кліку на кнопку "Шаблони'
         clickOnElement(menuTemplates);
@@ -112,12 +104,6 @@ public class Dashboard extends ActionsWithElements {
     }
 }
 
-//    // метод для кліку на кнопку "Головна"
-//    //метод для вибору значення дропдауну
-//    public  ТemplatessPage clickOnMenuTemplates()  { // мметод для кліку на кнопку "Шаблони'
-//       clickOnElement(menuTemplates);
-//        return new ТemplatessPage(WebDriver); // ТУТ повертається нова сторінка Шаблони
-//   }
 
 
 

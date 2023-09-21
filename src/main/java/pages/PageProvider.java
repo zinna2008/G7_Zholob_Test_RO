@@ -8,11 +8,10 @@ public class PageProvider { // клас для повернення сторін
 
     public PageProvider(WebDriver webDriver) { // конструктор
         this.webDriver = webDriver;
-    }
+    }// конструктор
 
     public LoginPage getloginPage() { // метод для повернення сторінки LoginPage
         return new LoginPage(webDriver);
-
     }
 
     public HomePage getHomePage() { // метод для повернення сторінки HomePage
@@ -32,7 +31,7 @@ public class PageProvider { // клас для повернення сторін
     }
 
 
-    }
+}
 
 
 

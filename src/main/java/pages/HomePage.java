@@ -7,17 +7,13 @@ import pages.dashboard.Dashboard;
 
 
 public class HomePage extends ParentPageWithDashboard {
-    //  private org.openqa.selenium.WebDriver
-    //          WebDriver;
 
-    @FindBy(xpath = ".//li[@class='templates']") // меню Шаблони
-    private WebElement menuTemplates;
-
-// роблю метод який буде заміняти логін з валідним логіном і паролем
     public HomePage(WebDriver webDriver) { // конструктор
         super(webDriver);
     }
 
+
+    //  метод який буде заміняти логін з валідним логіном і паролем
     public HomePage openHomePage() {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.loginWithValidUserEndPassvord(); //логінюсь з валідним логіном і паролем
