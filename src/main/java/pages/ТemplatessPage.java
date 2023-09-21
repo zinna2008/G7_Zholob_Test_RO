@@ -9,6 +9,11 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 public class ТemplatessPage extends ParentPageWithDashboard {
+
+    public ТemplatessPage(org.openqa.selenium.WebDriver webDriver) { // конструктор
+        super(webDriver);
+    } // конструктор
+
     //параметризований локатор для пошуку шаблону по назві
     private String nameTemplatelocator = ".//span[contains(text(),'%s')]"; //параметризований локатор для пошуку шаблону по назві
 
@@ -16,9 +21,7 @@ public class ТemplatessPage extends ParentPageWithDashboard {
     private String nameTemplateDropdownlocator = "//*[text()='%s']//..//a[contains(@class,'actionBarTrigger')]"; // параметризований локатор для пошуку дробдауну з назвою шаблону
 
 
-    public ТemplatessPage(WebDriver webDriver) { // конструктор
-        super(webDriver);
-    } // конструктор
+
 
     @FindBy(xpath = ".//*[contains(text(),'Створити шаблон')]")// кнопка "Створити шаблон"
     private WebElement DropdownCreateTemplate;
@@ -39,12 +42,12 @@ public class ТemplatessPage extends ParentPageWithDashboard {
 
     public void checkIsSearchTemplateVisible() { // метод для перевірки чи відображається поле "Знайти"
         checkElementDisplayed(SearchTemplate);
-    }//
+    } // метод для перевірки чи відображається поле "Знайти"
 
 
-    public void selectTextInDropdownCreateTemplate(String text) { // метод для вибору значення дропдауну при створенні шаблону
-
+    public CreateTemplatePage selectTextInDropdownCreateTemplate(String text) { // метод для вибору значення дропдауну при створенні шаблону
         selectTextInDropDownByUI(DropdownCreateTemplate, text);
+        return new CreateTemplatePage(webDriver);
     }
 
   //  public void selectTextInDropdownTemplate(String text) { // метод для вибору значення дропдауну
@@ -62,16 +65,16 @@ public class ТemplatessPage extends ParentPageWithDashboard {
         return webDriver.findElements(By.xpath(
                 String.format(nameTemplatelocator, nameTemplate)));
     }
-    public void checkIsTemplateVisible(String nameTemplate) { // метод для перевірки чи відображається шаблон ы вын один
+    public ТemplatessPage checkIsTemplateVisible(String nameTemplate) { // метод для перевірки чи відображається шаблон з такою назвою і він один
         Assert.assertEquals("Count of templates with title " + nameTemplate,
                 1,
                 getTemplatesList(nameTemplate).size());
         logger.info("Element is displaed");
-
+   return this;
     }
 
     //метод перевірки чи відображається дродаун з назвою шаблону
-public void checkIsTemplateDropdownVisible(String nameTemplate) { // метод для перевірки чи відображається дробдаун з назвою шаблону
+public void checkIsTemplateDropdownVisible(String nameTemplate) {
         checkElementDisplayed(webDriver.findElement(By.xpath(
                 String.format(nameTemplateDropdownlocator, nameTemplate))));
     }
@@ -84,14 +87,16 @@ public void checkIsTemplateDropdownVisible(String nameTemplate) { // метод 
 
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ДРОПДАУН ШАБЛОНА !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //метод вибору значення "Видалити" на дропдаун TemplateDropdown з параметризованим локатором
-    public void selectTextInTemplateDropdown(String nameTemplate, String text) {
+    //метод вибору значення "Видалити" або "Редагувати" на дропдаун TemplateDropdown з параметризованим локатором
+    public EditTemplatePage selectTextInTemplateDropdown(String nameTemplate, String text) {
         clickOnElement(webDriver.findElement(By.xpath(
                 String.format(nameTemplateDropdownlocator, nameTemplate) )));
         clickOnElement(webDriver.findElement(By.xpath(
                 String.format(nameTemplateDropdownlocator, nameTemplate) + "/..//*[contains(text(),'" + text + "')]")));
         logger.info(text + " was selected in DropDown");
+        return new EditTemplatePage(webDriver);
     }
+
 
 
 

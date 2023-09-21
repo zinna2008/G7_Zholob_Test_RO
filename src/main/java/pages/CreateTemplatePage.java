@@ -9,6 +9,10 @@ public class CreateTemplatePage extends ParentPageWithDashboard {
         super(webDriver);
     }
 
+    @FindBy(xpath = "//*[contains(text(),'Створення шаблону')]")
+    private WebElement textCreateTemplate;
+
+
     //       рахунок по дебету  дропдаун???????????????
    @FindBy(xpath = "//*[@class='combobox comboboxField formControl']//*[@class='ui-combobox']")
     private WebElement debitAccount;
@@ -62,53 +66,93 @@ public class CreateTemplatePage extends ParentPageWithDashboard {
         selectTextInDropDownByUI(debitAccount, text);
     }
 
-
-    public void clickOnCardNumber() { // метод для кліку на кнопку "Номер карти"
-        clickOnElement(cardNumber);
+    public CreateTemplatePage checkTextCreateTemplateVisible() { // метод для перевірки чи відображається розділ "Створення шаблону"
+        checkElementDisplayed(textCreateTemplate);
+        return this;
     }
 
-    public void enterTextIntoInputCardNumber(String cardNumber) { // метод для введення номеру карти
+    public CreateTemplatePage clickOnCardNumber() { // метод для кліку на кнопку "Номер карти"
+        clickOnElement(cardNumber);
+        return this;
+    }
+
+    public CreateTemplatePage enterTextIntoInputCardNumber(String cardNumber) { // метод для введення номеру карти
         enterTextIntoInput(inputСardNumber, cardNumber);
+        return this;
+    }
+
+    public CreateTemplatePage clicOninputSum(){ //метод кліку на інпут введення суми
+        clickOnElement(inputSumInput);
+        return this;
     }
 
     //метод для введення суми
-    public void entertextIntoInputSum(String sum) {
+    public CreateTemplatePage entertextIntoInputSum(String sum) {
         enterTextIntoInput(inputSumInput, sum);
+        return this;
     }
 
     //  Метод для перевырки повыдомлення "Інший банк"
-    public void checkIsOtherBankVisible() {
+    public CreateTemplatePage checkIsOtherBankVisible() {
         checkElementDisplayed(otherBank);
+        return this;
     }
 
 
 
-    public void clickOnButtonContinue() { // метод для кліку на кнопку "Продовжити"
+    public CreateTemplatePage clickOnButtonContinue() { // метод для кліку на кнопку "Продовжити"
         clickOnElement(buttonContinue);
+        return this;
     }
 
-    public void enterTextIntoInputTemplateName(String templateName) { // метод для введення назви шаблону
+    public CreateTemplatePage enterTextIntoInputTemplateName(String templateName) { // метод для введення назви шаблону
         enterTextIntoInput(this.templateName, templateName);
+        return this;
     }
 
-    public void clickOnButtonSave() { // метод для кліку на кнопку "Зберегти"
-        clickOnElement(buttonSave);
+    public CreateTemplatePage clickOnButtonSave() { // метод для кліку на кнопку "Зберегти"
+         clickOnElement(buttonSave);
+        return this;
     }
 
       // метод перевырки чи відображається розділ 'ПІБ одержувача'
-    public void checkIsPibOderguvachaVisible() {
+    public CreateTemplatePage checkIsPibOderguvachaVisible() {
         checkElementDisplayed(pibOderguvacha);
+        return this;
         }
 
         //метод перевыряє повідомлення "Шаблон успішно збережено
-        public void checkIsTemplateSaveVisible() {
-            checkElementDisplayed(TemplateSave);
+        public CreateTemplatePage checkIsTemplateSaveVisible() {
+        checkElementDisplayed(TemplateSave);
+        return this;
         }
 
         //метод для кліку на кнопку Закрити після збереження шаблону
-        public void clickOnButtonClose() {
+        public CreateTemplatePage clickOnButtonClose() {
             clickOnElement(buttonClose);
+            return this;
         }
+
+
+
+        // метод який буде обєднувати всі методи для створення шаблону
+        public CreateTemplatePage createTemplateAllStep(String debitAccount, String cardNumber, String sum, String templateName) {
+            selectTextInDebitAccount(debitAccount);
+            clickOnCardNumber();
+            enterTextIntoInputCardNumber(cardNumber);
+            checkIsOtherBankVisible();
+            entertextIntoInputSum(sum);
+            clickOnButtonContinue();
+            checkIsPibOderguvachaVisible();
+            clickOnButtonContinue();
+            enterTextIntoInputTemplateName(templateName);
+            clickOnButtonSave();
+            checkIsTemplateSaveVisible();
+            clickOnButtonClose();
+            return this;
+        }
+
+
         
 
 

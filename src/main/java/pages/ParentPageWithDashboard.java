@@ -15,9 +15,8 @@ public class ParentPageWithDashboard extends ParentPage {
         return new Dashboard(webDriver);
     }
 
-    public ТemplatessPage getTemplatessPage(){
-    return new ТemplatessPage(webDriver);
+
 
     };
 
-}
+

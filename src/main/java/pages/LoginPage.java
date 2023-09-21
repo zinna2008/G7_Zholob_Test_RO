@@ -1,8 +1,10 @@
 package pages;
 
+import data.TestData;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import pages.dashboard.Dashboard;
 
 public class LoginPage extends ParentPage {
     @FindBy(xpath = ".//input[@id='id8']") // введення логіна
@@ -26,27 +28,39 @@ public class LoginPage extends ParentPage {
         openPage(BASE_URL);
     }
 
-    public void enterTextIntoInputUserName(String userName) { // метод для введення логіна
+    public LoginPage enterTextIntoInputUserName(String userName) { // метод для введення логіна
         enterTextIntoInput(inputUserNane, userName);
-
+        return this;
     }
 
-    public void enterTextIntoInputPassword(String password) { // метод для введення пароля
+    public LoginPage enterTextIntoInputPassword(String password) { // метод для введення пароля
         enterTextIntoInput(inputPassword, password);
+        return this;
     }
 
-    public void clickOnButtonSignIn() { // метод для кліку на кнопку ВХІД
+    public HomePage clickOnButtonSignIn() { // метод для кліку на кнопку ВХІД
         clickOnElement(buttonSignIn);
-    } // метод для кліку на кнопку ВХІД
+        return new HomePage(webDriver);
+    }
 
 // метод для перевірки чи відображається повідомлення 'Введено невірний логін або пароль"
-    public void isInvalidLoginOrPasswordDisplayed() { // метод для перевірки чи відображається повідомлення 'Введено невірний логін або пароль"
-        checkElementDisplayed(invalidLoginOrPassword);
-    } //
-
-        public void isButtonSignInDisplayed() {
-            checkElementDisplayed(buttonSignIn);// метод для перевірки чи відображення кнопка ВХІД
-
-
+    public LoginPage isInvalidLoginOrPasswordDisplayed() {
+         checkElementDisplayed(invalidLoginOrPassword);
+        return this;
     }
+
+        public LoginPage isButtonSignInDisplayed() {
+            checkElementDisplayed(buttonSignIn); // метод для перевірки  відображення кнопки ВХІД
+          return this;
+    }
+
+//метод логіна з валідними логіном і паролем
+    public void loginWithValidUserEndPassvord(){
+        openLoginPage();
+        enterTextIntoInputUserName(TestData.LOGIN_DEFAULT);
+        enterTextIntoInputPassword(TestData.PASSWORD_DEFAULT);
+        clickOnButtonSignIn();
+    }
+
 }
+
