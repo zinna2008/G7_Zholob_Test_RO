@@ -4748,3 +4748,268 @@ Session ID: 13521f2898964025af5fe03913286976
 2023-21-09 14:45:31   INFO [pages.ТemplatessPage] : ВИДАЛИТИElement was clicked
 2023-21-09 14:45:31   INFO [pages.ТemplatessPage] : Видалити was selected in DropDown
 2023-21-09 14:45:31   INFO [pages.ТemplatessPage] : OKElement was clicked
+2023-21-09 15:05:12   INFO [templetesTest.TemplateEditTest] : Browser was opened
+2023-21-09 15:05:13   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-21-09 15:05:14   INFO [pages.LoginPage] : atepliuk94 was inputted into input
+2023-21-09 15:05:14   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-21-09 15:05:14   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-21-09 15:05:33   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 15:05:33   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 15:06:34   INFO [pages.dashboard.Dashboard] : Element was clicked
+2023-21-09 15:06:34   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 15:06:34   INFO [pages.ТemplatessPage] : Element was clicked
+2023-21-09 15:06:34   INFO [pages.ТemplatessPage] : ПЕРЕКАЗУElement was clicked
+2023-21-09 15:06:34   INFO [pages.ТemplatessPage] : Переказу was selected in DropDown
+2023-21-09 15:07:03   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 15:07:13   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 15:07:23   INFO [pages.CreateTemplatePage] : 1234567890123456 was inputted into input0000 0000 0000 0000
+2023-21-09 15:07:42   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 15:07:42   INFO [pages.CreateTemplatePage] : 50 was inputted into input0,00
+2023-21-09 15:07:42   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 15:07:51   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 15:07:51   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 15:07:56   INFO [pages.CreateTemplatePage] : Inna 15050720230921 was inputted into input
+2023-21-09 15:07:56   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 15:07:56   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 15:07:56   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 15:07:56   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 15:07:56   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 15:07:56   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 15:07:56   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 15:07:57   INFO [pages.ТemplatessPage] : РЕДАГУВАТИElement was clicked
+2023-21-09 15:07:57   INFO [pages.ТemplatessPage] : Редагувати was selected in DropDown
+2023-21-09 15:08:21   INFO [pages.EditTemplatePage] : Element is displaed
+2023-21-09 15:08:21   INFO [pages.EditTemplatePage] : Element was clicked
+2023-21-09 15:08:36   INFO [pages.EditTemplatePage] : Element was clicked
+2023-21-09 15:08:36   INFO [pages.EditTemplatePage] : Element was clicked
+2023-21-09 15:08:36   INFO [pages.EditTemplatePage] : .... 1766 was selected in DropDown
+2023-21-09 15:09:06   INFO [pages.CreateTemplatePage] : 100 was inputted into input0,00
+2023-21-09 15:09:37   INFO [pages.CreateTemplatePage] : 100 was inputted into input0,00
+2023-21-09 15:09:37   INFO [pages.EditTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 15:10:07   INFO [pages.EditTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 15:10:15   INFO [pages.EditTemplatePage] : Element is displaed
+2023-21-09 15:10:15   INFO [pages.CreateTemplatePage] : Inna EDIT_15050720230921 was inputted into input
+2023-21-09 15:10:16   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 15:10:16   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 15:10:16   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 15:10:16   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 15:10:16   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 15:10:16   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 15:10:16   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 15:10:16   INFO [pages.ТemplatessPage] : ВИДАЛИТИElement was clicked
+2023-21-09 15:10:16   INFO [pages.ТemplatessPage] : Видалити was selected in DropDown
+2023-21-09 15:10:17   INFO [pages.ТemplatessPage] : OKElement was clicked
+2023-21-09 16:19:12   INFO [templetesTest.TemplatesTest] : Browser was opened
+2023-21-09 16:19:14   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-21-09 16:19:15   INFO [pages.LoginPage] : atepliuk94 was inputted into input
+2023-21-09 16:19:15   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-21-09 16:19:15   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-21-09 16:19:34   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:19:34   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:20:35   INFO [pages.dashboard.Dashboard] : Element was clicked
+2023-21-09 16:20:35   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:20:36   INFO [pages.ТemplatessPage] : Element was clicked
+2023-21-09 16:20:36   INFO [pages.ТemplatessPage] : ПЕРЕКАЗУElement was clicked
+2023-21-09 16:20:36   INFO [pages.ТemplatessPage] : Переказу was selected in DropDown
+2023-21-09 16:21:07   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:21:07   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:21:07   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:21:07   INFO [pages.CreateTemplatePage] : •••• 3859 was selected in DropDown
+2023-21-09 16:21:27   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:21:37   INFO [pages.CreateTemplatePage] : 1234567890123456 was inputted into input0000 0000 0000 0000
+2023-21-09 16:22:45   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:22:45   INFO [pages.CreateTemplatePage] : 50 was inputted into input0,00
+2023-21-09 16:22:46   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:22:53   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:22:53   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:22:58   INFO [pages.CreateTemplatePage] : Inna 16190820230921 was inputted into input
+2023-21-09 16:22:59   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 16:22:59   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:23:00   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 16:23:00   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:23:00   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:23:00   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:23:00   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 16:23:00   INFO [pages.ТemplatessPage] : ВИДАЛИТИElement was clicked
+2023-21-09 16:23:00   INFO [pages.ТemplatessPage] : Видалити was selected in DropDown
+2023-21-09 16:23:00   INFO [pages.ТemplatessPage] : OKElement was clicked
+2023-21-09 16:23:16   INFO [templetesTest.TemplatesTest] : Browser was opened
+2023-21-09 16:23:18   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-21-09 16:23:18   INFO [pages.LoginPage] : atepliuk94 was inputted into input
+2023-21-09 16:23:19   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-21-09 16:23:19   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-21-09 16:23:35   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:23:35   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:24:36   INFO [pages.dashboard.Dashboard] : Element was clicked
+2023-21-09 16:24:36   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:24:36   INFO [pages.ТemplatessPage] : Element was clicked
+2023-21-09 16:24:36   INFO [pages.ТemplatessPage] : ПЕРЕКАЗУElement was clicked
+2023-21-09 16:24:36   INFO [pages.ТemplatessPage] : Переказу was selected in DropDown
+2023-21-09 16:25:09   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:25:10   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:25:10   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:25:10   INFO [pages.CreateTemplatePage] : •••• 3859 was selected in DropDown
+2023-21-09 16:25:25  ERROR [pages.CreateTemplatePage] : Can not work with elementorg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=116.0.5845.190)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [810657e08e11a4443e55347574442e46, clickElement {id=9C3A2A5A38086A7B0B4F9FF8D816CE80_element_168}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.190, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\iuad0bg8\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51527/devtoo..., se:cdpVersion: 116.0.5845.190, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (810657e08e11a4443e55347574442e46)] -> xpath: //div[@class='credit']//*//*//*[contains(text(),'Номер картки')]]
+Session ID: 810657e08e11a4443e55347574442e46
+2023-21-09 16:28:19   INFO [templetesTest.TemplatesTest] : Browser was opened
+2023-21-09 16:28:21   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-21-09 16:28:22   INFO [pages.LoginPage] : atepliuk94 was inputted into input
+2023-21-09 16:28:22   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-21-09 16:28:22   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-21-09 16:28:39   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:28:39   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:29:40   INFO [pages.dashboard.Dashboard] : Element was clicked
+2023-21-09 16:29:40   INFO [pages.ТemplatessPage] : Element was clicked
+2023-21-09 16:29:40   INFO [pages.ТemplatessPage] : ПЕРЕКАЗУElement was clicked
+2023-21-09 16:29:40   INFO [pages.ТemplatessPage] : Переказу was selected in DropDown
+2023-21-09 16:30:11   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:30:12   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:30:12   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:30:12   INFO [pages.CreateTemplatePage] : •••• 3859 was selected in DropDown
+2023-21-09 16:30:32   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:30:42   INFO [pages.CreateTemplatePage] : 1234567890123456 was inputted into input0000 0000 0000 0000
+2023-21-09 16:31:50   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:31:51   INFO [pages.CreateTemplatePage] : 50 was inputted into input0,00
+2023-21-09 16:31:51   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:31:58   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:31:59   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:32:03   INFO [pages.CreateTemplatePage] : Inna 16281520230921 was inputted into input
+2023-21-09 16:32:03   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 16:32:04   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:32:04   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 16:32:05   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:32:05   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:32:05   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:32:05   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 16:32:05   INFO [pages.ТemplatessPage] : ВИДАЛИТИElement was clicked
+2023-21-09 16:32:05   INFO [pages.ТemplatessPage] : Видалити was selected in DropDown
+2023-21-09 16:32:05   INFO [pages.ТemplatessPage] : OKElement was clicked
+2023-21-09 16:34:34   INFO [templetesTest.TemplatesTest] : Browser was opened
+2023-21-09 16:34:36   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-21-09 16:34:37   INFO [pages.LoginPage] : atepliuk94 was inputted into input
+2023-21-09 16:34:37   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-21-09 16:34:37   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-21-09 16:34:56   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:34:56   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:35:59   INFO [pages.dashboard.Dashboard] : Element was clicked
+2023-21-09 16:35:59   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:35:59   INFO [pages.ТemplatessPage] : Element was clicked
+2023-21-09 16:35:59   INFO [pages.ТemplatessPage] : ПЕРЕКАЗУElement was clicked
+2023-21-09 16:35:59   INFO [pages.ТemplatessPage] : Переказу was selected in DropDown
+2023-21-09 16:36:30   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:36:30   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:36:30   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:36:30   INFO [pages.CreateTemplatePage] : •••• 3859 was selected in DropDown
+2023-21-09 16:36:50   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:37:00   INFO [pages.CreateTemplatePage] : 1234567890123456 was inputted into input0000 0000 0000 0000
+2023-21-09 16:38:08   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:38:08   INFO [pages.CreateTemplatePage] : 50 was inputted into input0,00
+2023-21-09 16:38:09   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:38:16   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:38:16   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:38:21   INFO [pages.CreateTemplatePage] : Inna 16343020230921 was inputted into input
+2023-21-09 16:38:21   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 16:38:22   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:38:22   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 16:38:22   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:38:22   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:38:22   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:38:22   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 16:38:22   INFO [pages.ТemplatessPage] : ВИДАЛИТИElement was clicked
+2023-21-09 16:38:22   INFO [pages.ТemplatessPage] : Видалити was selected in DropDown
+2023-21-09 16:38:22   INFO [pages.ТemplatessPage] : OKElement was clicked
+2023-21-09 16:50:07   INFO [templetesTest.TemplatesTest] : Browser was opened
+2023-21-09 16:50:08   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-21-09 16:50:09   INFO [pages.LoginPage] : atepliuk94 was inputted into input
+2023-21-09 16:50:10   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-21-09 16:50:10   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-21-09 16:50:14   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:50:14   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 16:51:15   INFO [pages.dashboard.Dashboard] : Element was clicked
+2023-21-09 16:51:15   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:51:15   INFO [pages.ТemplatessPage] : Element was clicked
+2023-21-09 16:51:15   INFO [pages.ТemplatessPage] : ПЕРЕКАЗУElement was clicked
+2023-21-09 16:51:15   INFO [pages.ТemplatessPage] : Переказу was selected in DropDown
+2023-21-09 16:51:50   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:51:50   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:51:50   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:51:50   INFO [pages.CreateTemplatePage] : •••• 3859 was selected in DropDown
+2023-21-09 16:52:10   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 16:52:20   INFO [pages.CreateTemplatePage] : 1234567890123456 was inputted into input0000 0000 0000 0000
+2023-21-09 16:53:28   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:53:28   INFO [pages.CreateTemplatePage] : 50 was inputted into input0,00
+2023-21-09 16:53:29   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:53:36   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:53:37   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 16:53:41   INFO [pages.CreateTemplatePage] : Inna 16500120230921 was inputted into input
+2023-21-09 16:53:41   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 16:53:42   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 16:53:42   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 16:53:42   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:53:42   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:53:42   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 16:53:42   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 16:53:42   INFO [pages.ТemplatessPage] : ВИДАЛИТИElement was clicked
+2023-21-09 16:53:42   INFO [pages.ТemplatessPage] : Видалити was selected in DropDown
+2023-21-09 16:53:43   INFO [pages.ТemplatessPage] : OKElement was clicked
+2023-21-09 17:58:39   INFO [templetesTest.TemplateEditTest] : Browser was opened
+2023-21-09 17:58:45   INFO [pages.LoginPage] : Page was opened https://digital-uat.avrb.com.ua/ibank/home?1
+2023-21-09 17:58:46   INFO [pages.LoginPage] : atepliuk94 was inputted into input
+2023-21-09 17:58:46   INFO [pages.LoginPage] : Aval#2020 was inputted into input
+2023-21-09 17:58:46   INFO [pages.LoginPage] : ВХІДElement was clicked
+2023-21-09 17:59:06   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 17:59:06   INFO [pages.dashboard.Dashboard] : Element is displaed
+2023-21-09 18:00:07   INFO [pages.dashboard.Dashboard] : Element was clicked
+2023-21-09 18:00:07   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 18:00:07   INFO [pages.ТemplatessPage] : Element was clicked
+2023-21-09 18:00:07   INFO [pages.ТemplatessPage] : ПЕРЕКАЗУElement was clicked
+2023-21-09 18:00:07   INFO [pages.ТemplatessPage] : Переказу was selected in DropDown
+2023-21-09 18:00:37   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 18:00:37   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 18:00:37   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 18:00:37   INFO [pages.CreateTemplatePage] : •••• 3859 was selected in DropDown
+2023-21-09 18:00:57   INFO [pages.CreateTemplatePage] : Element was clicked
+2023-21-09 18:01:07   INFO [pages.CreateTemplatePage] : 1234567890123456 was inputted into input0000 0000 0000 0000
+2023-21-09 18:02:15   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 18:02:15   INFO [pages.CreateTemplatePage] : 50 was inputted into input0,00
+2023-21-09 18:02:15   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 18:02:23   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 18:02:23   INFO [pages.CreateTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 18:02:28   INFO [pages.CreateTemplatePage] : Inna 17583420230921 was inputted into input
+2023-21-09 18:02:28   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 18:02:29   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 18:02:29   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 18:02:29   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 18:02:29   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 18:02:29   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 18:02:29   INFO [pages.ТemplatessPage] : РЕДАГУВАТИElement was clicked
+2023-21-09 18:02:29   INFO [pages.ТemplatessPage] : Редагувати was selected in DropDown
+2023-21-09 18:02:52   INFO [pages.EditTemplatePage] : Element is displaed
+2023-21-09 18:02:52   INFO [pages.EditTemplatePage] : Element was clicked
+2023-21-09 18:03:06   INFO [pages.EditTemplatePage] : Element was clicked
+2023-21-09 18:03:06   INFO [pages.EditTemplatePage] : Element was clicked
+2023-21-09 18:03:06   INFO [pages.EditTemplatePage] : .... 1766 was selected in DropDown
+2023-21-09 18:03:37   INFO [pages.CreateTemplatePage] : 100 was inputted into input0,00
+2023-21-09 18:04:07   INFO [pages.CreateTemplatePage] : 100 was inputted into input0,00
+2023-21-09 18:04:07   INFO [pages.EditTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 18:04:37   INFO [pages.EditTemplatePage] : ПРОДОВЖИТИElement was clicked
+2023-21-09 18:04:45   INFO [pages.EditTemplatePage] : Element is displaed
+2023-21-09 18:04:46   INFO [pages.CreateTemplatePage] : Inna EDIT_17583420230921 was inputted into input
+2023-21-09 18:04:46   INFO [pages.CreateTemplatePage] : ЗБЕРЕГТИElement was clicked
+2023-21-09 18:04:46   INFO [pages.CreateTemplatePage] : Element is displaed
+2023-21-09 18:04:46   INFO [pages.CreateTemplatePage] : ЗАКРИТИElement was clicked
+2023-21-09 18:04:46   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 18:04:46   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 18:04:46   INFO [pages.ТemplatessPage] : Element is displaed
+2023-21-09 18:04:46   INFO [pages.ТemplatessPage] : actionBarTriggerElement was clicked
+2023-21-09 18:04:47   INFO [pages.ТemplatessPage] : ВИДАЛИТИElement was clicked
+2023-21-09 18:04:47   INFO [pages.ТemplatessPage] : Видалити was selected in DropDown
+2023-21-09 18:04:47   INFO [pages.ТemplatessPage] : OKElement was clicked

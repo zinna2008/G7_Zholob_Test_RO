@@ -128,9 +128,9 @@ public class CreateTemplatePage extends ParentPageWithDashboard {
         }
 
         //метод для кліку на кнопку Закрити після збереження шаблону
-        public CreateTemplatePage clickOnButtonClose() {
+        public ТemplatessPage clickOnButtonClose() {
             clickOnElement(buttonClose);
-            return this;
+            return new ТemplatessPage(webDriver);
         }
 
 

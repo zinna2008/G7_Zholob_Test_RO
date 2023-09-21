@@ -23,82 +23,46 @@ public class TemplatesTest extends BaseTest {
         SimpleDateFormat sdf = new SimpleDateFormat("HHmmssyyyyMMdd");
         return sdf.format(new Date());
     }
-// створення шаблону
-//    @Before()
-//
-//    public void validLogin() {
-//
-//        pageProvider.getloginPage().openLoginPage();
-//        pageProvider.getloginPage().enterTextIntoInputUserName(LOGIN_DEFAULT);
-//        pageProvider.getloginPage().enterTextIntoInputPassword(PASSWORD_DEFAULT);
-//        pageProvider.getloginPage().clickOnButtonSignIn(); // клік на кнопку Вхід
-//        //ПЕРЕВІРКА ЧИ МИ НА ГОЛВНІЙ СТОРІНЦІ ПІСЛЯ ЛОГІНУ
-//        pageProvider.getHomePage().getDashboard().checkIsDashboardVisible(); // перевірка чи є кнопка меню Головна
-//        pageProvider.getHomePage().getDashboard().checkIsTemplatesVisible(); // перевірка чи є кнопка меню Шаблони
-//    }
+
 
     @Test //            створення нового шаблону
     public void createNewTemplate() {
 
-        pageProvider.getHomePage().openHomePage(); //залогінитись і перевірили
-
-        pageProvider.getHomePage().getDashboard().clickOnMenuTemplates();// клік на кнопку меню Шаблони
-
-  //      pageProvider.getTemplatessPage().checkIsSearchTemplateVisible(); // перевірка чи є кнопка пошуку шаблону ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
- //       Util.waitABit(10);
-        pageProvider.getTemplatessPage().checkIsDropdownCreateTemplateVisible(); // перевірка чи є кнопка Створити шаблон ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
-        pageProvider.getTemplatessPage().selectTextInDropdownCreateTemplate("Переказу"); //  метод для вибору значення дропдауну ПЕРЕКАЗИ
-
-        //              нова сторінка створення шаблону
-
-        pageProvider.getCreateTemplatePage().checkTextCreateTemplateVisible();
-        // введення значення Visa Raifcard в допдаун рахунку по дебету
-        pageProvider.getCreateTemplatePage().selectTextInDebitAccount("•••• 3859");
+        pageProvider.getHomePage().openHomePage() //залогінитись і перевірили
+                .getDashboard().clickOnMenuTemplates()// клік на кнопку меню Шаблони
+                .checkIsSearchTemplateVisible() // перевірка чи є кнопка пошуку шаблону ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
+//              .checkIsDropdownCreateTemplateVisible(); // перевірка чи є кнопка Створити шаблон ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
+                .selectTextInDropdownCreateTemplate("Переказу") //  метод для вибору значення дропдауну ПЕРЕКАЗИ
+  //нова сторінка створення шаблону
+                .checkTextCreateTemplateVisible()// назва вікна "Створення шаблону"
+                .selectTextInDebitAccount("•••• 3859"); // введення значення Visa Raifcard в допдаун рахунку по дебету
         Util.waitABit(20);
-        pageProvider.getCreateTemplatePage().clickOnCardNumber(); // клык на роздыл "Номер картки"
-        pageProvider.getCreateTemplatePage().enterTextIntoInputCardNumber("1234567890123456"); // вводимо номер картки для зарахування
-
-        //              вводимо суму для зарахування
-                   Util.waitABit(20);
-        pageProvider.getCreateTemplatePage().checkIsOtherBankVisible(); // перевірка чи є розділ "Інший банк"
-
-        pageProvider.getCreateTemplatePage().entertextIntoInputSum("50"); // вводимо суму для зарахування
-
-        pageProvider.getCreateTemplatePage().clickOnButtonContinue();// клік на кнопку "Продовжити"
-        pageProvider.getCreateTemplatePage().checkIsPibOderguvachaVisible();// перевірка чи є розділ "ПІБ одержувача"
-        //           Util.waitABit(30);
-        pageProvider.getCreateTemplatePage().clickOnButtonContinue();// клік на кнопку "Продовжити"
-
-        // ввожу назву шаблону
-        pageProvider.getCreateTemplatePage().enterTextIntoInputTemplateName(nameTemplate);
-        // клік на кнопку ЗБЕРЕГТИ
-        pageProvider.getCreateTemplatePage().clickOnButtonSave();
-        // перевірка чи є повідомлення "Шаблон успішно збережено"
-        pageProvider.getCreateTemplatePage().checkIsTemplateSaveVisible();
-        // клік на кнопку Закрити після збереження шаблону
-        pageProvider.getCreateTemplatePage().clickOnButtonClose();
+        pageProvider.getCreateTemplatePage().clickOnCardNumber()// клык на роздыл "Номер картки"
+                .enterTextIntoInputCardNumber("1234567890123456"); // вводимо номер картки для зарахування
+        Util.waitABit(20);
+        pageProvider.getCreateTemplatePage().checkIsOtherBankVisible() // перевірка чи є розділ "Інший банк"
+                .entertextIntoInputSum("50") // вводимо суму для зарахування
+                .clickOnButtonContinue()// клік на кнопку "Продовжити"
+                .checkIsPibOderguvachaVisible()// перевірка чи є розділ "ПІБ одержувача"
+                .clickOnButtonContinue()// клік на кнопку "Продовжити"
+                .enterTextIntoInputTemplateName(nameTemplate) // ввожу назву шаблону
+                .clickOnButtonSave()// клік на кнопку ЗБЕРЕГТИ
+                .checkIsTemplateSaveVisible() // перевірка чи є повідомлення "Шаблон успішно збережено"
+                .clickOnButtonClose() // клік на кнопку Закрити після збереження шаблону
 
 // перевырка що шаблон з такою назвою створився
-        pageProvider.getTemplatessPage().checkIsSearchTemplateVisible(); // перевірка чи є кнопка пошуку шаблону
-        pageProvider.getTemplatessPage().checkIsDropdownCreateTemplateVisible(); // перевірка чи є кнопка Створити шаблон
-        pageProvider.getTemplatessPage().checkIsTemplateVisible(nameTemplate); // перевірка чи є шаблон з такою назвою
-
-
+                .checkIsSearchTemplateVisible()// перевірка чи є кнопка пошуку шаблону
+                .checkIsTemplateVisible(nameTemplate); // перевірка чи є шаблон з такою назвою
     }
 
     @After
     public void deleteTemplate() { // видалення шаблону
 
 // метод перевырки відображення дропдауну з назвою шаблону
-        pageProvider.getTemplatessPage().checkIsTemplateDropdownVisible(nameTemplate);
-
+        pageProvider.getTemplatessPage().checkIsTemplateDropdownVisible(nameTemplate)
 // метод вибору "Видалити" з дропдауну конкретного шаблону з назвою "nameTemplate"
-        pageProvider.getTemplatessPage().selectTextInTemplateDropdown(nameTemplate, "Видалити");
-        pageProvider.getTemplatessPage().cliсkOnButtonOK(); //підтвердження видалення шаблону кнопка ОК
-
-        // метод перевырки выдсутності шаблону з назвою "nameTemplate"
- //       Util.waitABit(20);
- //      pageProvider.getTemplatessPage().checkIsTemplateDropdownNotVisible(nameTemplate);
+        .selectTextInTemplateDropdown(nameTemplate, "Видалити")
+        .clickOnButtonOk(); //підтвердження видалення шаблону кнопка ОК
 
     }
 

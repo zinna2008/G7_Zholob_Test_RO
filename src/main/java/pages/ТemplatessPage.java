@@ -35,27 +35,28 @@ public class ТemplatessPage extends ParentPageWithDashboard {
     private WebElement buttonOK;
 
 
-    // метод для перевірки чи відображається дропдаун "Створити шаблон"
-    public void checkIsDropdownCreateTemplateVisible() {
+    // метод для перевірки чи відображається дропдаун "Створити шаблон" який повертає ту саму сторінку
+    public ТemplatessPage checkIsDropdownCreateTemplateVisible() {
         checkElementDisplayed(DropdownCreateTemplate);
-    }
+        return this;
+    } // метод для перевірки чи відображається дропдаун "Створити шаблон" який повертає ту саму сторінку
 
-    public void checkIsSearchTemplateVisible() { // метод для перевірки чи відображається поле "Знайти"
+
+
+    public ТemplatessPage checkIsSearchTemplateVisible() { // метод для перевірки чи відображається поле "Знайти"
         checkElementDisplayed(SearchTemplate);
-    } // метод для перевірки чи відображається поле "Знайти"
-
+        return this;
+    }
 
     public CreateTemplatePage selectTextInDropdownCreateTemplate(String text) { // метод для вибору значення дропдауну при створенні шаблону
         selectTextInDropDownByUI(DropdownCreateTemplate, text);
         return new CreateTemplatePage(webDriver);
     }
 
-  //  public void selectTextInDropdownTemplate(String text) { // метод для вибору значення дропдауну
-  //      selectTextInDropDownByUI(DropdownTemplate, text);
-  //  }
 
-    public void cliсkOnButtonOK() { // метод для кліку на кнопку "ОК" при видаленні шаблону
+    public ТemplatessPage clickOnButtonOk () { // метод для кліку на кнопку "ОК" при видаленні шаблону
         clickOnElement(buttonOK);
+        return this;
     } //
 
 
@@ -74,27 +75,24 @@ public class ТemplatessPage extends ParentPageWithDashboard {
     }
 
     //метод перевірки чи відображається дродаун з назвою шаблону
-public void checkIsTemplateDropdownVisible(String nameTemplate) {
+public ТemplatessPage checkIsTemplateDropdownVisible(String nameTemplate) {
         checkElementDisplayed(webDriver.findElement(By.xpath(
                 String.format(nameTemplateDropdownlocator, nameTemplate))));
-    }
-//метод перевірки відсутності дропдауна з назвою шаблону nameTemplate
-    public void checkIsTemplateDropdownNotVisible(String nameTemplate) { //
-        checkElementNotDisplayed(webDriver.findElement(By.xpath(
-                String.format(nameTemplateDropdownlocator, nameTemplate))));
+        return this;
     }
 
 
 
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ДРОПДАУН ШАБЛОНА !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//ДРОПДАУН ШАБЛОНА !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     //метод вибору значення "Видалити" або "Редагувати" на дропдаун TemplateDropdown з параметризованим локатором
-    public EditTemplatePage selectTextInTemplateDropdown(String nameTemplate, String text) {
+    public ТemplatessPage selectTextInTemplateDropdown(String nameTemplate, String text) {
         clickOnElement(webDriver.findElement(By.xpath(
                 String.format(nameTemplateDropdownlocator, nameTemplate) )));
         clickOnElement(webDriver.findElement(By.xpath(
                 String.format(nameTemplateDropdownlocator, nameTemplate) + "/..//*[contains(text(),'" + text + "')]")));
         logger.info(text + " was selected in DropDown");
-        return new EditTemplatePage(webDriver);
+        return this;
     }
 
 
