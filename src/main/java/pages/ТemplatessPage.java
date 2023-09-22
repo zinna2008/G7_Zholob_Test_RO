@@ -34,6 +34,10 @@ public class ТemplatessPage extends ParentPageWithDashboard {
     @FindBy(xpath = ".//button[contains(text(),'OK')]")// кнопка "ОК"
     private WebElement buttonOK;
 
+    //заголовок "Шаблони"
+    @FindBy(xpath = ".//h1[contains(text(),'Шаблони')]")// заголовок "Шаблони"
+    private WebElement TitleTemplates;
+
 
     // метод для перевірки чи відображається дропдаун "Створити шаблон" який повертає ту саму сторінку
     public ТemplatessPage checkIsDropdownCreateTemplateVisible() {
@@ -46,11 +50,21 @@ public class ТemplatessPage extends ParentPageWithDashboard {
         return this;
     }
 
+    //перевырка чи э заголовок "Шаблони"
+    public ТemplatessPage checkIsTitleTemplatesVisible() {
+        checkElementDisplayed(TitleTemplates);
+        return this;
+    }
+
     public CreateTemplatePage selectTextInDropdownCreateTemplate(String text) { // метод для вибору значення дропдауну при створенні шаблону
         selectTextInDropDownByUI(DropdownCreateTemplate, text);
         return new CreateTemplatePage(webDriver);
     }
+    public CreateTemplatePage selectTextInDropdownCreateTemplateAlt(String text) { // альтернатива
+        selectTextInDropDown(DropdownCreateTemplate, text);
+        return new CreateTemplatePage(webDriver);
 
+    }
 
     public ТemplatessPage clickOnButtonOk () { // метод для кліку на кнопку "ОК" при видаленні шаблону
         clickOnElement(buttonOK);

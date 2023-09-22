@@ -30,9 +30,7 @@ public class ActionsWithElements {
         webDriverWait30 = new WebDriverWait(webDriver, Duration.ofSeconds(30));
 
 
-        // чекаємо макс 60с поки елемент буде клікабельний
-//        webDriverWait15 = new WebDriverWait(webDriver, Duration.ofSeconds(ConfigProvider.configProperties.TIME_FOR_EXPLICIT_WAIT_LOW())); // чекаємо макс 15с поки елемент буде клікабельний
-        //    wait.until(ExpectedConditions.invisibilityOf(spinner)); // чекаємо поки елемент буде невидимий
+
     }
 
 
@@ -65,14 +63,13 @@ public class ActionsWithElements {
         try {
             input.clear();
             input.sendKeys(text);
-            logger.info(text + " was inputted into input" + getElementName(input)); // виводимо в консоль інформацію про те що ввели в інпут
+            logger.info(text + " was inputted into input" + getElementName(input));
         } catch (Exception e) {
-
-
-            printErrorAndStopTest(e);
+            logger.error("Can not work with element");
+            Assert.fail("Can not work with element");
         }
-    }
 
+    }
 
     public boolean isElementDisplayed(WebElement element) {  // перевырка чи елемент присутный на дысплеї
         try {

@@ -30,7 +30,7 @@ public class TemplateEditTest extends BaseTest {
 
         pageProvider.getHomePage().openHomePage() //залогінитись і перевірили
                 .getDashboard().clickOnMenuTemplates()// клік на кнопку меню Шаблони
-                .checkIsSearchTemplateVisible() // перевірка чи є кнопка пошуку шаблону ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
+                .checkIsTitleTemplatesVisible() // перевірка чи є заголовок "Шаблони"
 //              .checkIsDropdownCreateTemplateVisible(); // перевірка чи є кнопка Створити шаблон ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
                 .selectTextInDropdownCreateTemplate("Переказу") //  метод для вибору значення дропдауну ПЕРЕКАЗИ
                 //нова сторінка створення шаблону
@@ -39,7 +39,7 @@ public class TemplateEditTest extends BaseTest {
         Util.waitABit(20);
         pageProvider.getCreateTemplatePage().clickOnCardNumber()// клык на роздыл "Номер картки"
                 .enterTextIntoInputCardNumber("1234567890123456"); // вводимо номер картки для зарахування
-        Util.waitABit(20);
+        Util.waitABit(30);
         pageProvider.getCreateTemplatePage().checkIsOtherBankVisible() // перевірка чи є розділ "Інший банк"
                 .entertextIntoInputSum("50") // вводимо суму для зарахування
                 .clickOnButtonContinue()// клік на кнопку "Продовжити"
@@ -72,7 +72,8 @@ public class TemplateEditTest extends BaseTest {
 
 
                 .checkIsTitleNameTemplateVisible();// перевырка выдобрадження назви поля "Назва шаблону"
-        pageProvider.getCreateTemplatePage().enterTextIntoInputTemplateName(nameTemplateEdit) // ввожу назву шаблону
+        pageProvider.getCreateTemplatePage().checkIsButtonSaveVisible()
+                .enterTextIntoInputTemplateName(nameTemplateEdit) // ввожу назву шаблону
                 .clickOnButtonSave() // клік на кнопку ЗБЕРЕГТИ
                 .checkIsTemplateSaveVisible()// перевірка чи є повідомлення "Шаблон успішно збережено"
                 .clickOnButtonClose() // клік на кнопку Закрити після збереження шаблону

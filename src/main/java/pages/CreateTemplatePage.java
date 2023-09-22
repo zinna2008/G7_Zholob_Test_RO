@@ -113,6 +113,12 @@ public class CreateTemplatePage extends ParentPageWithDashboard {
         return this;
     }
 
+    //перевірка чи є кнопка "Зберегти"
+    public CreateTemplatePage checkIsButtonSaveVisible() {
+        checkElementDisplayed(buttonSave);
+        return this;
+    }
+
     // метод перевырки чи відображається розділ 'ПІБ одержувача'
     public CreateTemplatePage checkIsPibOderguvachaVisible() {
         checkElementDisplayed(pibOderguvacha);

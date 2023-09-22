@@ -30,8 +30,8 @@ public class TemplatesTest extends BaseTest {
 
         pageProvider.getHomePage().openHomePage() //залогінитись і перевірили
                 .getDashboard().clickOnMenuTemplates()// клік на кнопку меню Шаблони
-                .checkIsSearchTemplateVisible() // перевірка чи є кнопка пошуку шаблону ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
-//              .checkIsDropdownCreateTemplateVisible(); // перевірка чи є кнопка Створити шаблон ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
+                .checkIsTitleTemplatesVisible() // перевірка чи є заголовок "Шаблони"
+                .checkIsDropdownCreateTemplateVisible() // перевірка чи є кнопка Створити шаблон ПЕРЕВІРКА ЧИ МИ НА СТОРІНЦІ ШАБЛОНІВ
                 .selectTextInDropdownCreateTemplate("Переказу") //  метод для вибору значення дропдауну ПЕРЕКАЗИ
   //нова сторінка створення шаблону
                 .checkTextCreateTemplateVisible()// назва вікна "Створення шаблону"
@@ -39,7 +39,7 @@ public class TemplatesTest extends BaseTest {
         Util.waitABit(20);
         pageProvider.getCreateTemplatePage().clickOnCardNumber()// клык на роздыл "Номер картки"
                 .enterTextIntoInputCardNumber("1234567890123456"); // вводимо номер картки для зарахування
-        Util.waitABit(20);
+        Util.waitABit(25);
         pageProvider.getCreateTemplatePage().checkIsOtherBankVisible() // перевірка чи є розділ "Інший банк"
                 .entertextIntoInputSum("50") // вводимо суму для зарахування
                 .clickOnButtonContinue()// клік на кнопку "Продовжити"
