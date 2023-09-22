@@ -8,7 +8,9 @@ public class ParentPage extends ActionsWithElements{
 
     public ParentPage(WebDriver webDriver) {// конструктор
                super(webDriver);
-    }
+    }// конструктор
+
+
     public void openPage(String url) { // метод для відкриття сторінки
         try {
             webDriver.get(url);
